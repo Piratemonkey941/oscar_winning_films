@@ -1,3 +1,5 @@
-require './lib/oscar_winning_films.rb'
+
+require "bundler/setup"
+require './lib/oscar_winning_films_cli.rb'
 
 CLI.new.run
